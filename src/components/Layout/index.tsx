@@ -1,4 +1,5 @@
 import { ChannelInfo } from '../ChannelInfo';
+import { ChannelList } from '../ChannelList';
 import { ServerLitst } from '../ServerLitst';
 import { ServerName } from '../ServerName';
 import { Grid } from './styles';
@@ -9,6 +10,7 @@ export function Layout(): JSX.Element {
       <ServerLitst />
       <ServerName />
       <ChannelInfo />
+      <ChannelList />
     </Grid>
   );
 }

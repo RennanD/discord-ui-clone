@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  grid-area: 'SN';
+  grid-area: SN;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -2,7 +2,7 @@ import { Hash } from 'phosphor-react';
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  grid-area: 'CI';
+  grid-area: CI;
   display: flex;
   align-items: center;
   padding: 0 17px;

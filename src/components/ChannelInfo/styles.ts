@@ -8,7 +8,7 @@ export const Container = styled.div`
   padding: 0 17px;
   background-color: var(--primary);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px 0px;
-  z-index: 2px;
+  z-index: 2;
 `;
 
 export const HashIcon = styled(Hash)`

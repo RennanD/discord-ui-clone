@@ -7,7 +7,7 @@ export default [
   {
     id: 2,
     notification: false,
-    mentions: 0,
+    mentions: 99,
   },
   {
     id: 3,

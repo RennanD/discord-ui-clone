@@ -38,19 +38,37 @@ export const Container = styled.button<ServerButtonProps>`
       css`
         background-color: var(--discord);
       `}
+
+    &::before {
+      content: '';
+      width: 9px;
+      height: ${({ selected }) => (selected ? '30px' : '20px')};
+      position: absolute;
+      left: -17px;
+      top: ${({ selected }) =>
+        !selected ? 'calc(50% - 10px)' : 'calc(50% - 15px)'};
+
+      background-color: var(--white);
+      border-radius: 4px;
+      display: inline;
+    }
   }
 
   &::before {
     content: '';
     width: 9px;
-    height: 9px;
+    height: ${({ selected }) => (selected ? 30 : 9)}px;
     position: absolute;
     left: -17px;
-    top: calc(50% - 4.5px);
+    top: ${({ selected }) =>
+      !selected ? 'calc(50% - 4.5px)' : 'calc(50% - 15px)'};
 
     background-color: var(--white);
-    border-radius: 50%;
-    display: ${({ notification }) => (notification ? 'inline' : 'none')};
+    border-radius: ${({ selected }) => (selected ? '4px' : '50%')};
+    display: ${({ notification, selected }) =>
+      notification || selected ? 'inline' : 'none'};
+
+    transition: width 0.2s ease;
   }
 
   &::after {

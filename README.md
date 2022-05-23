@@ -16,11 +16,39 @@
   <img src="https://img.shields.io/github/stars/rennand/discord-ui-clone?label=stars&message=MIT&color=ED2590&labelColor=5292C1 " alt="Stars">
 </p>
 
+## ⚡️ Iniciando o Projeto
+
+### Clonando Projeto
+```bash
+git clone https://github.com/RennanD/discord-ui-clone.git
+```
+
+### Instalando Dependências  
+* Utilizando NPM 
+```bash
+npm install
+```
+
+* Utilizando Yarn 
+```bash
+yarn
+```
+
+### Iniciando Projeto  
+* Utilizando NPM 
+```bash
+npm run dev
+```
+
+* Utilizando Yarn 
+```bash
+yarn dev
+```
+
 ## 🚀 Tecnologias
 
-- HTML
-- CSS
-- JavaScript
+- ReactJs com [NextJs](https://nextjs.org/)
+- [Styled Components](https://styled-components.com/)
 
 ## 🚧 Projeto
 

@@ -2,6 +2,7 @@ import { ChannelInfo } from '../ChannelInfo';
 import { ChannelList } from '../ChannelList';
 import { ServerLitst } from '../ServerLitst';
 import { ServerName } from '../ServerName';
+import { UserInfo } from '../UserInfo';
 import { Grid } from './styles';
 
 export function Layout(): JSX.Element {
@@ -11,6 +12,7 @@ export function Layout(): JSX.Element {
       <ServerName />
       <ChannelInfo />
       <ChannelList />
+      <UserInfo />
     </Grid>
   );
 }

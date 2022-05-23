@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { Gear, Hash, UserPlus } from 'phosphor-react';
+import { Hash } from 'phosphor-react';
 import { MdPersonAdd, MdSettings } from 'react-icons/md';
 
 type ContainerProps = {
@@ -73,7 +73,7 @@ export const InviteIcon = styled(MdPersonAdd)`
 export const SettingsIcon = styled(MdSettings)`
   height: 18px;
   width: 18px;
-
+  margin-left: 4px;
   color: var(--symbol);
   cursor: pointer;
 
